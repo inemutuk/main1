@@ -1,30 +1,30 @@
 // //     //    print all even numbers from 1-50
-// const evenNumbers = () => {
-//   for (let i = 1; i <= 50; i++) {
-//     if (i % 2 === 0) {
-//       console.log(i)
+const evenNumbers = () => {
+  for (let i = 1; i <= 50; i +=2 ) {
+    
+      console.log(i)
 
-//     }
-//   }
-// };
-// evenNumbers();
+    
+  }
+};
+evenNumbers();
 
 // A program to calculate the area of a triangle 
-// const areaOfTriangle = (base, height) =>{ 
-//   return  base * height * 0.5 ;
- 
-// }
-//  areaOfTriangle(3, 4);
+const areaOfTriangle = (base, height) =>{ 
+  return  base * height * 0.5 ;
 
-// //  A program to print the numbers from 1 to 50
+}
+areaOfTriangle(3, 4);
+
+//  A program to print the numbers from 1 to 50
 // const print = () => {
 //   for (let i = 1; i <= 50; i++) {
 //     console.log(i)
 //   }
-// };
+// }
 // print();
 
- //  A program to print the numbers in step of 5 from 15 to 50
+//   A program to print the numbers in step of 5 from 15 to 50
 
  const print = () => {
     for (let i = 15; i <= 50; i+=5) {
